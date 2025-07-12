@@ -6,8 +6,13 @@ telemetry = true
 cache_dir = './.cache'
 requirements = []
 
-[contracts.motivation-tracking]
-path = 'contracts/motivation-tracking.clar'
+[contracts.nutrition-guidance]
+path = 'contracts/nutrition-guidance.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.progress-monitoring]
+path = 'contracts/progress-monitoring.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
